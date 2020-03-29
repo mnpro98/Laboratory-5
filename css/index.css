@@ -1,0 +1,48 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+header {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	border-style: inset;
+	padding: 20px 100px 20px 100px;
+	margin: 5px 0px 5px 0px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom-style: solid;
+}
+
+.results{
+	display: flex;
+	align-self: center;
+	padding-top: 10px;
+}
+
+.slist {
+	padding-left: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	text-align: center;
+	margin: 5px 10px 5px 10px;
+}
